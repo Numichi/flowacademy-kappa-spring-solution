@@ -5,7 +5,7 @@ import hu.flowacademy.band.database.repository.UserRepository;
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 
-public class NewUserEmailValidation implements ConstraintValidator<Password, String> {
+public class NewUserEmailValidation implements ConstraintValidator<NewUserEmail, String> {
 
     private final UserRepository userRepository;
 
